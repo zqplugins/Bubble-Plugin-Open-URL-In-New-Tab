@@ -1,0 +1,18 @@
+{
+    "categories": {
+        "0": "productivity",
+        "1": "media",
+        "2": "containers",
+        "3": "web scraping",
+        "4": "technical"
+    },
+    "data_tracked": false,
+    "demo_page": "https://pluginpreview.bubbleapps.io/newtaburl",
+    "description": "This plugin has been recently acquired by Zeroqode - please bear with us while we review the code and make improvements/fixes where necessary.\n\nThis plugin lets you open a URL in a new tab using workflows so that you don't have to rely on the link element anymore. This plugin in supports elements like text, groups, shapes, images and icons on all browsers (without triggering a popup block). The button element may trigger a popup block the first time on Firefox/edge due to browser restrictions.\n\nTo receive special offers and important updates please visit: https://zeroqo.de/updates\n\n🔔 Get our 15 Top Plugins Bundle with 15 most popular plugins for only 20$/month.\nPlugins included in the Bundle:\n\n- Bubble Page to PDF converter\n- Stripe Marketplace Express\n- Air Calendar (Full Calendar 5.9.0)\n- AWS File uploader - Any size\n- Advanced Rich Text Editor\n- Mapbox Map\n- Phone Input Number with Formatting\n- Advanced Multi Uploader\n- Video Player\n- Dynamic Height & Width of Elements\n- Audio Recorder\n- Repeating Group to CSV\n- Print Pro\n- Advanced Audio Player\n- Easy File Downloader\n\nGet it here: https://zeroqode.com/bundle\n\nDEMO & DOCUMENTATION\nhttps://zeroqode.com/plugin/open-url-in-new-tab-plugin-for-bubble-1728514689685x533517486386799550\n\nNEED HELP BUILDING A CUSTOM APPLICATION?\nhttps://dev.zeroqode.com\n\nSUPERCHARGE YOUR APP WITH ZEROQODE PLUGINS\nhttps://zeroqode.com/plugins\n\nQUESTIONS OR NEED HELP?\nhttps://forum.zeroqode.com",
+    "image": "//s3.amazonaws.com/appforest_uf/f1583326349473x320835962052014700/External_link_font_awesome.svg.png",
+    "license": "open_source",
+    "link": "https://zeroqode.com/plugins",
+    "name": "Open URL In New Tab",
+    "plugin_instructions": "This plugin in supports elements like text, groups, shapes, images and icons on all browsers(without triggering a popup block). The button element may trigger a popup block the first time on Firefox/edge due to browser restrictions.\n\n1, Give your element a unique element id. If you don't have this option in the element editor you have to enable it in the settings.\n\n2, When you create a workflow go the the 'plugin' tab and there you can select the 'open URL in New Tab Action'. Make sure to include 'https://' when using a URL. For element ID use the element ID you have given your element in step 1.",
+    "sa_node_version": 18
+}
