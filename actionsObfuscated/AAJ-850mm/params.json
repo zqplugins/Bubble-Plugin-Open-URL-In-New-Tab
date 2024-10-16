@@ -1,0 +1,31 @@
+{
+    "category": "plugins",
+    "display": "Open URL in New Tab",
+    "fields": {
+        "AAK": {
+            "caption": "URL",
+            "doc": "Place your URL here (must include 'https://')",
+            "editor": "DynamicValue",
+            "name": "url",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAL": {
+            "caption": "Element ID",
+            "doc": "Place your element ID here",
+            "editor": "DynamicValue",
+            "name": "HTMLid",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAM": {
+            "caption": "Open a link when the action is triggered?",
+            "default_val": true,
+            "doc": "Open the page in a new window when the action is triggered? If yes, the page will be opened immediately, if no, the page will be opened when clicking on the specified element.",
+            "editor": "Checkbox",
+            "name": "open_a_link",
+            "rank": 2
+        }
+    },
+    "type": "client_side"
+}
