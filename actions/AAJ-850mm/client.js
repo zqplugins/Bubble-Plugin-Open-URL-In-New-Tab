@@ -15,9 +15,12 @@ function(properties, context) {
     let c = document.getElementById("onelink" + HTMLid)
 
     element.addEventListener("mousehover", function() {
-        //тут проверка если <a> уже создана, то не создаём второй раз
-        c || ($("#" + properties.HTMLid).wrap("<a id='onelink" + HTMLid + "' href='" + url + "' target='_blank'  style='display: contents;'>				</a>"),
-             open_a_link ? element.click() : '' )
+        if(c){
+            c.href = url;
+        }else{
+            $("#" + properties.HTMLid).wrap("<a id='onelink" + HTMLid + "' href='" + url + "' target='_blank'  style='display: contents;'>				</a>"),
+                open_a_link ? element.click() : ''
+        }
     }())
 
 }
